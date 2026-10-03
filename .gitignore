@@ -1,0 +1,36 @@
+# ==========================================
+# BDD100K images / generated YOLO dataset
+# ==========================================
+data/yolo/images/
+data/yolo/labels/
+
+# Model weights
+*.pt
+*.pth
+
+# Python cache / environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Dataset caches
+*.cache
+
+# Archives / temporary files
+*.zip
+*.tmp
+
+# IDE / Windows
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large intermediate experiment outputs
+results/**/predictions_raw.json
+# Internal sanity experiment
+results/sanity_10/
+
+# Ultralytics generated batch previews
+results/**/train_batch*.jpg
+results/**/val_batch*.jpg

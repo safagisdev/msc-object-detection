@@ -1,0 +1,21 @@
+{
+  "model": "IDEA-Research/grounding-dino-tiny",
+  "gpu": "Tesla T4",
+  "images": 100,
+  "batch_size": 1,
+  "warmup_runs": 20,
+  "prompt": "traffic sign. traffic light. bus. truck. motorcycle.",
+  "forward_passes_per_image": 1,
+  "parameters": 172250626,
+  "trainable_parameters": 172250626,
+  "mean_latency_ms": 542.3099029999867,
+  "median_latency_ms": 540.5295999953523,
+  "min_latency_ms": 521.6999999975087,
+  "max_latency_ms": 590.7079999960843,
+  "std_latency_ms": 14.187310036043463,
+  "fps": 1.843850513765566,
+  "total_benchmark_seconds": 54.23433149999619,
+  "baseline_gpu_memory_mb": 668.15478515625,
+  "peak_gpu_memory_mb": 1954.6181640625,
+  "incremental_peak_gpu_memory_mb": 1286.46337890625
+}

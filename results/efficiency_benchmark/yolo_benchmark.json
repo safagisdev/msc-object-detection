@@ -1,0 +1,21 @@
+{
+  "model": "YOLO11n full-data",
+  "model_path": "C:\\msc-object-detection\\results\\yolo_full\\weights\\best.pt",
+  "gpu": "Tesla T4",
+  "images": 100,
+  "batch_size": 1,
+  "image_size": 640,
+  "warmup_runs": 20,
+  "parameters": 2590815,
+  "trainable_parameters": 0,
+  "mean_latency_ms": 28.024213999524363,
+  "median_latency_ms": 25.958450001780875,
+  "min_latency_ms": 22.389299992937595,
+  "max_latency_ms": 44.70040000160225,
+  "std_latency_ms": 5.928477910869589,
+  "fps": 35.64223239570121,
+  "total_benchmark_seconds": 2.80566039999394,
+  "baseline_gpu_memory_mb": 52.04296875,
+  "peak_gpu_memory_mb": 66.3408203125,
+  "incremental_peak_gpu_memory_mb": 14.2978515625
+}

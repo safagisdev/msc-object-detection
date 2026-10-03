@@ -1,0 +1,11 @@
+path: C:/msc-object-detection/data/yolo
+
+train: images/train_10
+val: images/test_night
+
+names:
+  0: traffic sign
+  1: traffic light
+  2: bus
+  3: truck
+  4: motorcycle
